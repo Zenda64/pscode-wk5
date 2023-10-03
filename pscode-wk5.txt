@@ -1,10 +1,21 @@
 // Exercise 1: Calculate the Sum of Two Numbers
+Input: 
+  num1 (an integer)
+  num2 (an integer)
 
-(Your pseudocode here)
+sum = num1 + num2
+
+Output: sum
 
 // Exercise 2: Check if a Number is Even or Odd
 
-(Your pseudocode here)
+Input: num (an integer)
+
+if num % 2 == 0 then
+    Output: "Even"
+else
+    Output: "Odd"
+end if
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -14,6 +25,56 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-(Your pseudocode here)
+Step a: Read in 5 separate numbers
+Input: 
+  num1 (a number)
+  num2 (a number)
+  num3 (a number)
+  num4 (a number)
+  num5 (a number)
+
+Step b: Calculate the average of the five numbers
+average = (num1 + num2 + num3 + num4 + num5) / 5
+
+Step c: Find the smallest (minimum) and largest (maximum) of the five entered numbers
+minNum = num1
+maxNum = num1
+
+if num2 < minNum then
+    minNum = num2
+end if
+
+if num2 > maxNum then
+    maxNum = num2
+end if
+
+if num3 < minNum then
+    minNum = num3
+end if
+
+if num3 > maxNum then
+    maxNum = num3
+end if
+
+if num4 < minNum then
+    minNum = num4
+end if
+
+if num4 > maxNum then
+    maxNum = num4
+end if
+
+if num5 < minNum then
+    minNum = num5
+end if
+
+if num5 > maxNum then
+    maxNum = num5
+end if
+
+Step d: Write out the results
+Output: "Average of the five numbers is " + average
+Output: "Smallest number is " + minNum
+Output: "Largest number is " + maxNum
 
 -- END --
